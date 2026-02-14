@@ -3,6 +3,80 @@ body {
   font-family: Arial, sans-serif;
 }
 
+
+.center-box {
+    width: 200px;
+    margin: auto;
+    padding: 15px;
+    border: 1px solid rgb(35, 178, 16);
+    background: rgb(7, 3, 137);
+    text-align: center;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    color: rgb(163, 151, 151);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.center-box {
+    width: 300px;
+    margin: 60px auto;
+    padding: 25px;
+    border: 2px solid #241c01;
+    border-radius: 10px;
+    background: white;
+    text-align: center;
+}
+
+.form-title {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+form input[type="text"] {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    padding: 8px 15px;
+    background-color: #c9a227;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #b38f1d;
+}
+
+
 .navbar {
   background: #1976d2;
   color: white;
@@ -20,8 +94,8 @@ h2 {
   font-weight: bold;
 }
 
-  label {
-  color: rgb(69, 70, 3);
+label {
+  color: rgb(65, 66, 24);
   font-weight: bold;
 }
 
