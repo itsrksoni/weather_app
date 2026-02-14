@@ -24,6 +24,31 @@ body {
   color: white;
 }
 
+.navbar{
+  background: #1976d2;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+}
+
+h2{
+  background: orange;
+  color: grey;
+}
+
+.center-box{
+  width: 300px;
+  margin: auto;
+  padding: 3px solid rgb(41, 119, 31);
+  background: rgb(177, 177, 177);
+  text-align: center;
+
+}
 .weather-card {
   max-width: 400px;
   margin: 30px auto;
