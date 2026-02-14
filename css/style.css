@@ -11,6 +11,25 @@ body {
   justify-content: space-between;
 }
 
+h1 {
+  color: white;
+}
+         
+h2 {
+  color: rgb(7, 21, 76);
+  font-weight: bold;
+}
+
+  label {
+  color: rgb(69, 70, 3);
+  font-weight: bold;
+}
+
+input[type="submit"] {
+  background-color: rgb(247, 245, 126);
+}
+
+
 .navbar a {
   color: white;
   margin-left: 15px;
